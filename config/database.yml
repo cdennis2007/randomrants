@@ -1,0 +1,28 @@
+development:
+  adapter: mysql
+  encoding: utf8
+  reconnect: false
+  database: randomrants_development
+  pool: 5
+  username: root
+  password: JMC2007**
+  
+test:
+  adapter: mysql
+  encoding: utf8
+  reconnect: false
+  database: randomrants_test
+  pool: 5
+  username: root
+  password: JMC2007**
+  
+
+production:
+  adapter: mysql
+  encoding: utf8
+  reconnect: false
+  database: randomrants_production
+  pool: 5
+  username: root
+  password: JMC2007**
+  
